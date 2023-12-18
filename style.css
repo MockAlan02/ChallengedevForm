@@ -22,7 +22,7 @@ header {
   padding: 20px;
 }
 .logo img {
-    margin-left:53px ;
+    margin-left:52.5px ;
 
 }
 
@@ -42,14 +42,14 @@ main {
   width: 78%;
   text-align: center;
   height: 200px;
-  padding: 5px;
+  padding: 2px;
 }
 .title h1 {
     
   color: white;
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
 }
 .title p {
    
@@ -67,10 +67,10 @@ form {
 .form {
   margin: auto;
   margin-top: 30px;
-  padding: 35px;
+  padding: 32px;
   background-color: rgba(255, 255, 255, 0.158);
   flex-direction: column;
-  border-radius: 25px;
+  border-radius: 22px;
 }
 .columnas {
   display: grid;
@@ -85,7 +85,6 @@ span {
   color: white;
   font-size: 0.875rem;
   font-weight: 400;
-  letter-spacing: 1.5px;
   margin-bottom: 5px;
 }
 
@@ -105,8 +104,7 @@ input {
 input::placeholder {
   color:#CDD5E0;
   font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
+  font-weight: 600;
 }
 select {
   border: none;
@@ -116,7 +114,7 @@ select {
   width: auto;
   font-size: 1rem;
   border-radius: 15px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
   padding: 10px;
   outline: none;
@@ -127,7 +125,7 @@ textarea {
   margin: 5px;
   border: none;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #111729;
   resize: none;
   outline: none;
@@ -147,19 +145,19 @@ textarea {
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 940px) {
   main {
     width: 90%;
   }
   form {
-    margin-top: 30px;
+  
     width: 100%;
   }
   .title h1 {
     font-size: 7vw;
   }
   .title p {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 @media only screen and (max-width: 640px) {
